@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #5d001e;
+  --secondary-color: #f3f2ef;
+}
+
+body {
+  background-color: var(--secondary-color) !important;
+  font-family: 'Barlow', Ubuntu, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.form-app {
+  width: 100%;
+  max-width: 576px;
+  padding: 1.5rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toast-success div {
+  background-color: green;
+}
+
+.toast-error div {
+  background-color: red;
+}
